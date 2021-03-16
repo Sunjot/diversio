@@ -15,7 +15,7 @@ const ColorWidget = (props) => {
             </div>
             <div id="window-selector-wrapper">
                 <ColorWindow selectedColor={selectedColor} />
-                <ColorSelector colorList={colorList} selectColor={() => setSelectedColor(colorCode)} selectedColor={selectedColor}/>
+                <ColorSelector colorList={colorList} selectColor={(colorCode) => setSelectedColor(colorCode)} selectedColor={selectedColor}/>
             </div>
         </div> 
     );
