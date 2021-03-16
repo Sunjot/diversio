@@ -1,0 +1,20 @@
+.color-selector-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.color-selector-option {
+    height: 30px;
+    width: 30px;
+    margin: 6px 6px 0 0;
+    cursor: pointer;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+.color-selector-option.active {
+    border: 2px solid black;
+}
